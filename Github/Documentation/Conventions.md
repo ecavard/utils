@@ -1,12 +1,36 @@
 # Github organisation:
 
-## Github Projects
+## Github Projects And repositories
 
-Naming convention: `<Domain> - <Project Name>`
+Projects naming convention: `<Domain> - <Project Name>`
 
-## Github Repositories
+Repositories naming convention: `<domain>.<project-name>.<repo-name>`
 
-Naming convention: `<domain>-<project-name>-<repo-name>`
+For example:
+
+1. `Utilities - Common`
+
+- Description: This project contains all the common utilities that are used across all the projects.
+- Repositories:
+  - `utilities.common.utils`
+    - tags: `utilities`, `common`, `utils`
+  - `utilities.common.logger`
+    - tags: `utilities`, `common`, `logger`
+  - `utilities.common.config`
+    - tags: `utilities`, `common`, `config`
+  - ...
+
+2. `Services - Auth`
+
+- Description: This project contains all the services related to authentication.
+- Repositories:
+  - `services.auth.api`
+    - tags: `services`, `auth`, `api`
+  - `services.auth.client`
+    - tags: `services`, `auth`, `client`
+  - `services.auth.server`
+    - tags: `services`, `auth`, `server`
+  - ...
 
 ## Github Repositories Tags
 
@@ -14,9 +38,16 @@ Use some tags to identify the repository's purpose.
 
 For example:
 
-- `documentation`
-- `services`
 - `utilities`
+- `common`
+- `utils`
+- `logger`
+- `config`
+- `services`
+- `auth`
+- `api`
+- `client`
+- `server`
 - ...
 
 ## Github Repositories Branches
